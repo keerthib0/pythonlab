@@ -1,0 +1,6 @@
+n=input("enter your name:-")
+em=input("enter your email:-")
+pno=int(input("enter your phone no.:-"))
+print(n)
+print(em)
+print(pno)
