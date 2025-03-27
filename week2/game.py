@@ -1,7 +1,7 @@
 import random
 n=random.randint(0,14)
 while(True):
-     x=int(input("guess the number"))
+     x=int(input("guess the number:-\n"))
      if(x<n):
           print("too low!!!")
      elif(x>n):
