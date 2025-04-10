@@ -10,9 +10,10 @@ n3 = int(input('enter the limit of list c:-'))
 alist = []
 blist = []
 clist = []
-alist1=createlist(alist,n1)
-print(alist1)
-blist1=createlist(blist,n2)
-print(blist1)
-clist1=createlist(clist,n3)
-print(clist1)
+alist=createlist(alist,n1)
+print(alist)
+blist=createlist(blist,n2)
+print(blist)
+clist=createlist(clist,n3)
+print(clist)
+
