@@ -2,16 +2,16 @@ def credit(bal,tr):
     amt=int(input('Enter the amount to credit: '))
     bal+=amt
     tr.append(amt)
-    print('$',amt,' credited successfully!!')
+    print('$',amt,' credited successfully!! :D')
     return bal,tr
 def debit(bal,tr):
     amt=int(input('Enter the amount to debit: '))
     if amt>bal:
-        print('Insufficient Balance!!')
+        print('Insufficient Balance!! :(')
     else:
         bal-=amt
         tr.append(-amt)
-        print('$',amt,' debited successfully!!')
+        print('$',amt,' debited successfully!! :|')
         return bal,tr
 def checkbal(bal):
     print('Current Balance: $',bal)
@@ -37,5 +37,5 @@ while True:
          print('\nBye~ >.<')
          break
     else:    
-        print('Make the right choice')
-    
+        print('Make the right choice!!! >_<')
+          
