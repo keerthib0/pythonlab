@@ -33,6 +33,9 @@ while True:
         checkbal(bal)
     elif ch==4:
         last5()
-    else:
-        print('Bye~')
-        break
+    elif ch==5:
+         print('\nBye~ >.<')
+         break
+    else:    
+        print('Make the right choice')
+    
